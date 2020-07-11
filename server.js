@@ -5,6 +5,7 @@ const { v4: uuidv4 } = require("uuid");
 const authorization_with_pa_enroll = require("./CYBS/authwithenroll");
 const basic_dm_transaction = require("./CYBS/dm1");
 const authorization_with_pa_validate = require("./CYBS/authwithvalidate");
+const dme_transaction = require("./CYBS/decisionmanagerevent");
 
 const express = require("express");
 require("dotenv").config();
@@ -13,8 +14,18 @@ const jwt = require("express-jwt"); //Validate JWT and set req.user
 const jwksRsa = require("jwks-rsa"); //Retrieve RSA keys from a JSON Web Key set (JWKS) endpoint
 const uuid = uuidv4();
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const db = require("./Data/DBConfig").MongoDBURI;
 const crypto = require("crypto");
+const passport = require("passport");
 let hash = crypto.createHash("sha256");
+const users = require("./serverRoutes/api/users");
+const products = require("./serverRoutes/api/products");
+
+mongoose
+  .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log("MongoDB connected."))
+  .catch((err) => console.log(err));
 
 const reqObj = {
   clientData: {},
@@ -73,6 +84,11 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use(passport.initialize());
+require("./Data/passport")(passport);
+app.use("/api/users", users);
+app.use("/api/products", products);
+
 app.get("/public", (req, res) => {
   console.log(req.body);
   res.json({
@@ -84,6 +100,9 @@ app.post("/auth", (req, res) => {
   console.log("Data received" + JSON.stringify(req.body));
   reqObj.clientData = req.body;
 });
+
+app.use(express.static("public"));
+app.use("/images", express.static(__dirname + "/src/images"));
 
 app.post("/score", (req, res) => {
   console.log("Data received" + JSON.stringify(req.body));
@@ -171,6 +190,18 @@ app.get("/getAuthResponse", (req, res) => {
 app.get("/private", checkJWT, (req, res) => {
   res.json({
     message: "Hello from Wanderer's Escape's private API!!!",
+  });
+});
+
+app.post("/dmevent", (req, res) => {
+  dme_transaction.basic_dm_transaction(req.body, (error, response, data) => {
+    console.log("Sending data back to client");
+    res.json({
+      data: JSON.stringify(data),
+      response: JSON.stringify(response),
+      error: JSON.stringify(error),
+      message: "DM Events Response",
+    });
   });
 });
 

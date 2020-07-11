@@ -5766,3 +5766,591 @@
 2020-07-07T14:09:45.775Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pI2B0jSVsBlZnrlzLKf83l99vugETsnzORoI+xqU5Yc="
 2020-07-07T14:09:45.775Z - info: User-Agent : Mozilla/5.0
 2020-07-07T14:09:45.775Z - info: END > =========================================
+2020-07-07T17:44:08.733Z - info: START > =======================================
+2020-07-07T17:44:08.738Z - info: Authentication Type : http_signature
+2020-07-07T17:44:08.735Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-07T17:44:08.738Z - info: Request Type : POST
+2020-07-07T17:44:08.740Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="05SJdlVGIPsBizZX/cS9hQtrgipPDfG/1q9+D1WIpy0="
+2020-07-07T17:44:08.741Z - info: digest : SHA-256=AfQ92jRxHYBTaGR/AVJ8GO+yrXl5Z4atH52FnG/SxIQ=
+2020-07-07T17:44:08.741Z - info: v-c-merchant-id : wescaper
+2020-07-07T17:44:08.741Z - info: date : Tue, 07 Jul 2020 17:44:08 GMT
+2020-07-07T17:44:08.741Z - info: host : apitest.cybersource.com
+2020-07-07T17:44:08.741Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="05SJdlVGIPsBizZX/cS9hQtrgipPDfG/1q9+D1WIpy0="
+2020-07-07T17:44:08.741Z - info: User-Agent : Mozilla/5.0
+2020-07-07T17:44:08.741Z - info: END > =========================================
+2020-07-07T17:55:34.781Z - info: START > =======================================
+2020-07-07T17:55:34.783Z - info: Authentication Type : http_signature
+2020-07-07T17:55:34.782Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-07T17:55:34.783Z - info: Request Type : POST
+2020-07-07T17:55:34.783Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="EXqBy/lffi/Xb0hjbrQFel83LYWU6to50RPXRy5acHc="
+2020-07-07T17:55:34.783Z - info: digest : SHA-256=m0UXmXiVQaiYUsNKmFmpZGCW+V6dni6q6zvCcwx80bY=
+2020-07-07T17:55:34.783Z - info: v-c-merchant-id : wescaper
+2020-07-07T17:55:34.784Z - info: date : Tue, 07 Jul 2020 17:55:34 GMT
+2020-07-07T17:55:34.784Z - info: host : apitest.cybersource.com
+2020-07-07T17:55:34.784Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="EXqBy/lffi/Xb0hjbrQFel83LYWU6to50RPXRy5acHc="
+2020-07-07T17:55:34.784Z - info: User-Agent : Mozilla/5.0
+2020-07-07T17:55:34.784Z - info: END > =========================================
+2020-07-08T05:54:12.805Z - info: START > =======================================
+2020-07-08T05:54:12.806Z - info: Authentication Type : http_signature
+2020-07-08T05:54:12.805Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T05:54:12.806Z - info: Request Type : POST
+2020-07-08T05:54:12.807Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vrhEW2jGGFHY/E9XfrlHrl2/PxRLGrr6xtipCIYR0ts="
+2020-07-08T05:54:12.808Z - info: digest : SHA-256=MxWiMw2YUKx9xpQYI6+i8qyswv/aBs/XpVPlpdXCTaQ=
+2020-07-08T05:54:12.809Z - info: v-c-merchant-id : wescaper
+2020-07-08T05:54:12.809Z - info: date : Wed, 08 Jul 2020 05:54:12 GMT
+2020-07-08T05:54:12.809Z - info: host : apitest.cybersource.com
+2020-07-08T05:54:12.809Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vrhEW2jGGFHY/E9XfrlHrl2/PxRLGrr6xtipCIYR0ts="
+2020-07-08T05:54:12.809Z - info: User-Agent : Mozilla/5.0
+2020-07-08T05:54:12.809Z - info: END > =========================================
+2020-07-08T05:55:36.438Z - info: START > =======================================
+2020-07-08T05:55:36.439Z - info: Authentication Type : http_signature
+2020-07-08T05:55:36.439Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T05:55:36.439Z - info: Request Type : POST
+2020-07-08T05:55:36.440Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tw40JeThQ3pCWlm4sjfkudObpEmHNgG4v7q+NkfklO0="
+2020-07-08T05:55:36.440Z - info: digest : SHA-256=Cd7fRrzCixFsV6qPfAoVvyJ5NsA5lFTuIyAxjolu17k=
+2020-07-08T05:55:36.440Z - info: v-c-merchant-id : wescaper
+2020-07-08T05:55:36.440Z - info: date : Wed, 08 Jul 2020 05:55:36 GMT
+2020-07-08T05:55:36.440Z - info: host : apitest.cybersource.com
+2020-07-08T05:55:36.440Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tw40JeThQ3pCWlm4sjfkudObpEmHNgG4v7q+NkfklO0="
+2020-07-08T05:55:36.440Z - info: User-Agent : Mozilla/5.0
+2020-07-08T05:55:36.440Z - info: END > =========================================
+2020-07-08T05:58:57.179Z - info: START > =======================================
+2020-07-08T05:58:57.180Z - info: Authentication Type : http_signature
+2020-07-08T05:58:57.180Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T05:58:57.180Z - info: Request Type : POST
+2020-07-08T05:58:57.181Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="P+hHdvrzLu+KieX7OEvzwbfS19BenQaHKe+xCVvWd+Q="
+2020-07-08T05:58:57.181Z - info: digest : SHA-256=JoTfqAJL7cZ3i5VOaca3OYl3faYpOZcChGKdSLSouIo=
+2020-07-08T05:58:57.181Z - info: v-c-merchant-id : wescaper
+2020-07-08T05:58:57.181Z - info: date : Wed, 08 Jul 2020 05:58:57 GMT
+2020-07-08T05:58:57.181Z - info: host : apitest.cybersource.com
+2020-07-08T05:58:57.181Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="P+hHdvrzLu+KieX7OEvzwbfS19BenQaHKe+xCVvWd+Q="
+2020-07-08T05:58:57.181Z - info: User-Agent : Mozilla/5.0
+2020-07-08T05:58:57.181Z - info: END > =========================================
+2020-07-08T06:00:19.363Z - info: START > =======================================
+2020-07-08T06:00:19.364Z - info: Authentication Type : http_signature
+2020-07-08T06:00:19.363Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:00:19.364Z - info: Request Type : POST
+2020-07-08T06:00:19.364Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pEo3oPObY4mGK/30fN2S7FUjF0Z8bAgVkddEptw7rvE="
+2020-07-08T06:00:19.364Z - info: digest : SHA-256=15NtRZh8MqOe1uwzNN+B3SjQeIFZXpzBh0eS67dPXk4=
+2020-07-08T06:00:19.364Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:00:19.364Z - info: date : Wed, 08 Jul 2020 06:00:19 GMT
+2020-07-08T06:00:19.364Z - info: host : apitest.cybersource.com
+2020-07-08T06:00:19.364Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pEo3oPObY4mGK/30fN2S7FUjF0Z8bAgVkddEptw7rvE="
+2020-07-08T06:00:19.364Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:00:19.364Z - info: END > =========================================
+2020-07-08T06:10:01.228Z - info: START > =======================================
+2020-07-08T06:10:01.229Z - info: Authentication Type : http_signature
+2020-07-08T06:10:01.228Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:10:01.229Z - info: Request Type : POST
+2020-07-08T06:10:01.229Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="KyeA+5I8lC9t8AT3w4l3nSnSci2JWxMynArFOii/FfM="
+2020-07-08T06:10:01.229Z - info: digest : SHA-256=beCOJlGutXYE5P+CuMdHTIjI+tNEP7RkbkhSZ9jKTXs=
+2020-07-08T06:10:01.229Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:10:01.229Z - info: date : Wed, 08 Jul 2020 06:10:01 GMT
+2020-07-08T06:10:01.229Z - info: host : apitest.cybersource.com
+2020-07-08T06:10:01.229Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="KyeA+5I8lC9t8AT3w4l3nSnSci2JWxMynArFOii/FfM="
+2020-07-08T06:10:01.229Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:10:01.229Z - info: END > =========================================
+2020-07-08T06:10:20.159Z - info: START > =======================================
+2020-07-08T06:10:20.161Z - info: Authentication Type : http_signature
+2020-07-08T06:10:20.160Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:10:20.161Z - info: Request Type : POST
+2020-07-08T06:10:20.162Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nC4IC1D7QjNNRi2flpjZZPtyebpXggimfkXvRbV5F4U="
+2020-07-08T06:10:20.162Z - info: digest : SHA-256=7Wfgu9nDQSHB4Vub6FIxiV6o0ZOi/S96EnAD+xXW8Xs=
+2020-07-08T06:10:20.162Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:10:20.162Z - info: date : Wed, 08 Jul 2020 06:10:20 GMT
+2020-07-08T06:10:20.162Z - info: host : apitest.cybersource.com
+2020-07-08T06:10:20.162Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nC4IC1D7QjNNRi2flpjZZPtyebpXggimfkXvRbV5F4U="
+2020-07-08T06:10:20.162Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:10:20.162Z - info: END > =========================================
+2020-07-08T06:10:36.685Z - info: START > =======================================
+2020-07-08T06:10:36.685Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:10:36.686Z - info: Authentication Type : http_signature
+2020-07-08T06:10:36.686Z - info: Request Type : POST
+2020-07-08T06:10:36.686Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="OLZXqogADSXxVB0wTvcZSxOWmACThcVq45lkmZc/jOk="
+2020-07-08T06:10:36.686Z - info: digest : SHA-256=DUBbr8trpUkDgssALMEmIncUduS1TETvga/f3ih5Hr8=
+2020-07-08T06:10:36.686Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:10:36.686Z - info: date : Wed, 08 Jul 2020 06:10:36 GMT
+2020-07-08T06:10:36.686Z - info: host : apitest.cybersource.com
+2020-07-08T06:10:36.686Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="OLZXqogADSXxVB0wTvcZSxOWmACThcVq45lkmZc/jOk="
+2020-07-08T06:10:36.686Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:10:36.686Z - info: END > =========================================
+2020-07-08T06:10:48.740Z - info: START > =======================================
+2020-07-08T06:10:48.741Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:10:48.741Z - info: Authentication Type : http_signature
+2020-07-08T06:10:48.741Z - info: Request Type : POST
+2020-07-08T06:10:48.741Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="p5Rj2ccECW03RxJYz+Px3re8GxUjZEivMPEWGC2EVFs="
+2020-07-08T06:10:48.742Z - info: digest : SHA-256=SQxrEVTs2zxIvLntkKfSjLGJTUFeNfqbYBb2jTFthaA=
+2020-07-08T06:10:48.742Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:10:48.742Z - info: date : Wed, 08 Jul 2020 06:10:48 GMT
+2020-07-08T06:10:48.742Z - info: host : apitest.cybersource.com
+2020-07-08T06:10:48.742Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="p5Rj2ccECW03RxJYz+Px3re8GxUjZEivMPEWGC2EVFs="
+2020-07-08T06:10:48.742Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:10:48.742Z - info: END > =========================================
+2020-07-08T06:16:12.094Z - info: START > =======================================
+2020-07-08T06:16:12.097Z - info: Authentication Type : http_signature
+2020-07-08T06:16:12.095Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:16:12.097Z - info: Request Type : POST
+2020-07-08T06:16:12.098Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="PHZ1RdTCbimotDif6azVnT/1mFRAR6YvTYTkInaBS5g="
+2020-07-08T06:16:12.099Z - info: digest : SHA-256=s9ZLukYT6nsCRlio5FAMQH2/VQIf13d/156m2ne1Y/Y=
+2020-07-08T06:16:12.099Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:16:12.099Z - info: date : Wed, 08 Jul 2020 06:16:12 GMT
+2020-07-08T06:16:12.099Z - info: host : apitest.cybersource.com
+2020-07-08T06:16:12.099Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="PHZ1RdTCbimotDif6azVnT/1mFRAR6YvTYTkInaBS5g="
+2020-07-08T06:16:12.099Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:16:12.099Z - info: END > =========================================
+2020-07-08T06:17:06.983Z - info: START > =======================================
+2020-07-08T06:17:06.984Z - info: Authentication Type : http_signature
+2020-07-08T06:17:06.984Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:17:06.984Z - info: Request Type : POST
+2020-07-08T06:17:06.985Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="l5qIjoBZGVa6XmUZXKOGFS/2vd+akjKh7xGq19B5Pi4="
+2020-07-08T06:17:06.985Z - info: digest : SHA-256=6JBhAE1/KTjich2vq/GMAuWIqCVOlz1FhUCl80Bn0mA=
+2020-07-08T06:17:06.985Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:17:06.985Z - info: date : Wed, 08 Jul 2020 06:17:06 GMT
+2020-07-08T06:17:06.985Z - info: host : apitest.cybersource.com
+2020-07-08T06:17:06.985Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="l5qIjoBZGVa6XmUZXKOGFS/2vd+akjKh7xGq19B5Pi4="
+2020-07-08T06:17:06.985Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:17:06.985Z - info: END > =========================================
+2020-07-08T06:17:14.113Z - info: Authentication Type : http_signature
+2020-07-08T06:17:14.110Z - info: START > =======================================
+2020-07-08T06:17:14.113Z - info: Request Type : POST
+2020-07-08T06:17:14.113Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="WlQL0hn0qCiAWtSxs5pT29p7j8FPfuI3qnSbbGa+UhA="
+2020-07-08T06:17:14.114Z - info: digest : SHA-256=ve80Ntq4qwSz70KAOTXMNWDo93G57uKn/mnZ1COylOc=
+2020-07-08T06:17:14.114Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:17:14.114Z - info: date : Wed, 08 Jul 2020 06:17:14 GMT
+2020-07-08T06:17:14.114Z - info: host : apitest.cybersource.com
+2020-07-08T06:17:14.114Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="WlQL0hn0qCiAWtSxs5pT29p7j8FPfuI3qnSbbGa+UhA="
+2020-07-08T06:17:14.114Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:17:14.112Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:17:14.114Z - info: END > =========================================
+2020-07-08T06:18:22.495Z - info: START > =======================================
+2020-07-08T06:18:22.496Z - info: Authentication Type : http_signature
+2020-07-08T06:18:22.495Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T06:18:22.496Z - info: Request Type : POST
+2020-07-08T06:18:22.496Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="MFuI0DEtEeSdrZdgxWKyvX0lJQ2SwhUsHSmMy4pVYB4="
+2020-07-08T06:18:22.496Z - info: digest : SHA-256=WZCyQLMq72ll6xiElur4vw0UC7wWBfQIZEsPO6B/VdQ=
+2020-07-08T06:18:22.496Z - info: v-c-merchant-id : wescaper
+2020-07-08T06:18:22.496Z - info: date : Wed, 08 Jul 2020 06:18:22 GMT
+2020-07-08T06:18:22.496Z - info: host : apitest.cybersource.com
+2020-07-08T06:18:22.496Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="MFuI0DEtEeSdrZdgxWKyvX0lJQ2SwhUsHSmMy4pVYB4="
+2020-07-08T06:18:22.496Z - info: User-Agent : Mozilla/5.0
+2020-07-08T06:18:22.496Z - info: END > =========================================
+2020-07-08T07:14:42.656Z - info: START > =======================================
+2020-07-08T07:14:42.657Z - info: Authentication Type : http_signature
+2020-07-08T07:14:42.656Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T07:14:42.657Z - info: Request Type : POST
+2020-07-08T07:14:42.658Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="qsMAAarMfxmu8mdQHtZwoioeEMgIns5+14T8TQrbukw="
+2020-07-08T07:14:42.658Z - info: digest : SHA-256=W0g3jqTvkoxNXDRdf8tVuhupOwoAhf0vZKS8n5YQpoI=
+2020-07-08T07:14:42.658Z - info: v-c-merchant-id : wescaper
+2020-07-08T07:14:42.658Z - info: date : Wed, 08 Jul 2020 07:14:42 GMT
+2020-07-08T07:14:42.658Z - info: host : apitest.cybersource.com
+2020-07-08T07:14:42.658Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="qsMAAarMfxmu8mdQHtZwoioeEMgIns5+14T8TQrbukw="
+2020-07-08T07:14:42.658Z - info: User-Agent : Mozilla/5.0
+2020-07-08T07:14:42.658Z - info: END > =========================================
+2020-07-08T19:47:16.106Z - info: START > =======================================
+2020-07-08T19:47:16.112Z - info: Authentication Type : http_signature
+2020-07-08T19:47:16.107Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:47:16.112Z - info: Request Type : POST
+2020-07-08T19:47:16.115Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3eecu+2P7H+zAsyGWfUBBsiFZbCAQLUD6lHzQyVi4Zc="
+2020-07-08T19:47:16.116Z - info: digest : SHA-256=o41Xdq2wTRbii7h/5woys+TC9ri6oIymtSHvMZICzwg=
+2020-07-08T19:47:16.116Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:47:16.116Z - info: date : Wed, 08 Jul 2020 19:47:16 GMT
+2020-07-08T19:47:16.116Z - info: host : apitest.cybersource.com
+2020-07-08T19:47:16.116Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3eecu+2P7H+zAsyGWfUBBsiFZbCAQLUD6lHzQyVi4Zc="
+2020-07-08T19:47:16.116Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:47:16.116Z - info: END > =========================================
+2020-07-08T19:49:00.961Z - info: START > =======================================
+2020-07-08T19:49:00.968Z - info: Authentication Type : http_signature
+2020-07-08T19:49:00.963Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:49:00.968Z - info: Request Type : POST
+2020-07-08T19:49:00.970Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oF5JXINbLjqX2GtIU0eJ7QhomXQEQS9CCcGzGdDmfUc="
+2020-07-08T19:49:00.971Z - info: digest : SHA-256=nU16f9w7BzXvoGiEqTzSMJDF4GCzYnVVxKIfHvsi0Hs=
+2020-07-08T19:49:00.971Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:49:00.971Z - info: date : Wed, 08 Jul 2020 19:49:00 GMT
+2020-07-08T19:49:00.971Z - info: host : apitest.cybersource.com
+2020-07-08T19:49:00.971Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oF5JXINbLjqX2GtIU0eJ7QhomXQEQS9CCcGzGdDmfUc="
+2020-07-08T19:49:00.971Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:49:00.971Z - info: END > =========================================
+2020-07-08T19:52:09.737Z - info: START > =======================================
+2020-07-08T19:52:09.742Z - info: Authentication Type : http_signature
+2020-07-08T19:52:09.739Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:52:09.742Z - info: Request Type : POST
+2020-07-08T19:52:09.744Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DDg8xfam1lZGvmD9SRIn8aDlHGgbDK74D4kBfL8HTgQ="
+2020-07-08T19:52:09.745Z - info: digest : SHA-256=0mzIpwaF32jxYTv933lKYTKQ83GT8YW5uVRp+xbInhI=
+2020-07-08T19:52:09.745Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:52:09.745Z - info: date : Wed, 08 Jul 2020 19:52:09 GMT
+2020-07-08T19:52:09.745Z - info: host : apitest.cybersource.com
+2020-07-08T19:52:09.745Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="DDg8xfam1lZGvmD9SRIn8aDlHGgbDK74D4kBfL8HTgQ="
+2020-07-08T19:52:09.745Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:52:09.745Z - info: END > =========================================
+2020-07-08T19:52:18.054Z - info: START > =======================================
+2020-07-08T19:52:18.055Z - info: Authentication Type : http_signature
+2020-07-08T19:52:18.054Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:52:18.055Z - info: Request Type : POST
+2020-07-08T19:52:18.055Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="aAVkDBJdnKrY/zW6b/Th8eWNkLUvY0IdVblle8VxunU="
+2020-07-08T19:52:18.055Z - info: digest : SHA-256=prD0uIwNfDCCllA1xTKN0Gr0/uhLayZ1ytMDmHcIWSY=
+2020-07-08T19:52:18.055Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:52:18.055Z - info: date : Wed, 08 Jul 2020 19:52:18 GMT
+2020-07-08T19:52:18.056Z - info: host : apitest.cybersource.com
+2020-07-08T19:52:18.056Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="aAVkDBJdnKrY/zW6b/Th8eWNkLUvY0IdVblle8VxunU="
+2020-07-08T19:52:18.056Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:52:18.056Z - info: END > =========================================
+2020-07-08T19:52:57.100Z - info: START > =======================================
+2020-07-08T19:52:57.101Z - info: Authentication Type : http_signature
+2020-07-08T19:52:57.100Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:52:57.101Z - info: Request Type : POST
+2020-07-08T19:52:57.102Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="SG71kVatnZeo1skRgGqV2H9amSib7e7NpPjJCP9ViOU="
+2020-07-08T19:52:57.104Z - info: digest : SHA-256=uJBWxhgluYbO43OYuUGQXfMRQviZ+d8PjEsX8Wpo2Gc=
+2020-07-08T19:52:57.104Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:52:57.104Z - info: date : Wed, 08 Jul 2020 19:52:57 GMT
+2020-07-08T19:52:57.104Z - info: host : apitest.cybersource.com
+2020-07-08T19:52:57.104Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="SG71kVatnZeo1skRgGqV2H9amSib7e7NpPjJCP9ViOU="
+2020-07-08T19:52:57.104Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:52:57.104Z - info: END > =========================================
+2020-07-08T19:53:08.389Z - info: START > =======================================
+2020-07-08T19:53:08.390Z - info: Authentication Type : http_signature
+2020-07-08T19:53:08.390Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:53:08.390Z - info: Request Type : POST
+2020-07-08T19:53:08.391Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oSWC/KmO7fc8WLvme0RLkmGxeazKU7u87+D+MJ5/A/A="
+2020-07-08T19:53:08.391Z - info: digest : SHA-256=/cSVIfCOat6r9/vBqI2b7Q+Ch3YcLgPBSAw8+YALwak=
+2020-07-08T19:53:08.391Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:53:08.391Z - info: date : Wed, 08 Jul 2020 19:53:08 GMT
+2020-07-08T19:53:08.391Z - info: host : apitest.cybersource.com
+2020-07-08T19:53:08.391Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oSWC/KmO7fc8WLvme0RLkmGxeazKU7u87+D+MJ5/A/A="
+2020-07-08T19:53:08.391Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:53:08.391Z - info: END > =========================================
+2020-07-08T19:53:43.637Z - info: START > =======================================
+2020-07-08T19:53:43.639Z - info: Authentication Type : http_signature
+2020-07-08T19:53:43.638Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T19:53:43.639Z - info: Request Type : POST
+2020-07-08T19:53:43.640Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7ncKT6e+z2Fu4reWNSUlfxKIxVhKlGrJ6RE4mkxD21E="
+2020-07-08T19:53:43.640Z - info: digest : SHA-256=usm7l/yeXPjxBm2rjofNoUhvup9J37uvyk4PbEKEh6Y=
+2020-07-08T19:53:43.640Z - info: v-c-merchant-id : wescaper
+2020-07-08T19:53:43.640Z - info: date : Wed, 08 Jul 2020 19:53:43 GMT
+2020-07-08T19:53:43.640Z - info: host : apitest.cybersource.com
+2020-07-08T19:53:43.640Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7ncKT6e+z2Fu4reWNSUlfxKIxVhKlGrJ6RE4mkxD21E="
+2020-07-08T19:53:43.640Z - info: User-Agent : Mozilla/5.0
+2020-07-08T19:53:43.640Z - info: END > =========================================
+2020-07-08T20:22:09.149Z - info: START > =======================================
+2020-07-08T20:22:09.155Z - info: Authentication Type : http_signature
+2020-07-08T20:22:09.151Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-08T20:22:09.155Z - info: Request Type : POST
+2020-07-08T20:22:09.157Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pjR6G44Odq2SOT/kuT3mip/Uy/+VmHHYbdcteWqiEIA="
+2020-07-08T20:22:09.158Z - info: digest : SHA-256=W3JW+gwwjEOTYUIfeiUqFM0aaSKvmv0BSItKJ88vUPc=
+2020-07-08T20:22:09.158Z - info: v-c-merchant-id : wescaper
+2020-07-08T20:22:09.158Z - info: date : Wed, 08 Jul 2020 20:22:09 GMT
+2020-07-08T20:22:09.159Z - info: host : apitest.cybersource.com
+2020-07-08T20:22:09.159Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pjR6G44Odq2SOT/kuT3mip/Uy/+VmHHYbdcteWqiEIA="
+2020-07-08T20:22:09.159Z - info: User-Agent : Mozilla/5.0
+2020-07-08T20:22:09.159Z - info: END > =========================================
+2020-07-09T06:14:37.723Z - info: START > =======================================
+2020-07-09T06:14:37.728Z - info: Authentication Type : http_signature
+2020-07-09T06:14:37.724Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T06:14:37.729Z - info: Request Type : POST
+2020-07-09T06:14:37.730Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="/Nqn3Y7tLyyvoPsObIBY47rjz4NsKsHdfWS2Qv6a0JI="
+2020-07-09T06:14:37.731Z - info: digest : SHA-256=Fm/Yziyn7RGvlEAkKlXpQsLfzPNGDHRRgZA14ml5/Ac=
+2020-07-09T06:14:37.731Z - info: v-c-merchant-id : wescaper
+2020-07-09T06:14:37.731Z - info: date : Thu, 09 Jul 2020 06:14:37 GMT
+2020-07-09T06:14:37.731Z - info: host : apitest.cybersource.com
+2020-07-09T06:14:37.731Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="/Nqn3Y7tLyyvoPsObIBY47rjz4NsKsHdfWS2Qv6a0JI="
+2020-07-09T06:14:37.731Z - info: User-Agent : Mozilla/5.0
+2020-07-09T06:14:37.731Z - info: END > =========================================
+2020-07-09T07:07:32.628Z - info: START > =======================================
+2020-07-09T07:07:32.632Z - info: Authentication Type : http_signature
+2020-07-09T07:07:32.629Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T07:07:32.632Z - info: Request Type : POST
+2020-07-09T07:07:32.634Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="FV1ZB9UZUEJKaqc3mn9z6iaRrNrbyUBZwMg6+ImnfMQ="
+2020-07-09T07:07:32.635Z - info: digest : SHA-256=RWiwBzVSyc8uW9uFJ8G4ypz4/w7F4IdL813EYVg2c8I=
+2020-07-09T07:07:32.635Z - info: v-c-merchant-id : wescaper
+2020-07-09T07:07:32.635Z - info: date : Thu, 09 Jul 2020 07:07:32 GMT
+2020-07-09T07:07:32.635Z - info: host : apitest.cybersource.com
+2020-07-09T07:07:32.635Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="FV1ZB9UZUEJKaqc3mn9z6iaRrNrbyUBZwMg6+ImnfMQ="
+2020-07-09T07:07:32.635Z - info: User-Agent : Mozilla/5.0
+2020-07-09T07:07:32.635Z - info: END > =========================================
+2020-07-09T07:07:54.631Z - info: START > =======================================
+2020-07-09T07:07:54.632Z - info: Authentication Type : http_signature
+2020-07-09T07:07:54.631Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T07:07:54.632Z - info: Request Type : POST
+2020-07-09T07:07:54.633Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="YOnj0UeuKNQWfg56t/PhFEoalUeyRWAI/w+V9/1Paxk="
+2020-07-09T07:07:54.633Z - info: digest : SHA-256=FjjhWAqqwKllWt/Ewd5Ytr/9wGW2RVpPeSHZPo6AHYQ=
+2020-07-09T07:07:54.633Z - info: v-c-merchant-id : wescaper
+2020-07-09T07:07:54.633Z - info: date : Thu, 09 Jul 2020 07:07:54 GMT
+2020-07-09T07:07:54.633Z - info: host : apitest.cybersource.com
+2020-07-09T07:07:54.633Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="YOnj0UeuKNQWfg56t/PhFEoalUeyRWAI/w+V9/1Paxk="
+2020-07-09T07:07:54.633Z - info: User-Agent : Mozilla/5.0
+2020-07-09T07:07:54.633Z - info: END > =========================================
+2020-07-09T07:16:11.191Z - info: START > =======================================
+2020-07-09T07:16:11.196Z - info: Authentication Type : http_signature
+2020-07-09T07:16:11.193Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T07:16:11.197Z - info: Request Type : POST
+2020-07-09T07:16:11.199Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="EiX6OJmPmZQ0Lk2tkslKdaCtqifRMV3cKxhcgIOYNiM="
+2020-07-09T07:16:11.201Z - info: digest : SHA-256=987W5ySUPUgsSet52xoTF9imm5PpoN+yV2OEPSaYPOM=
+2020-07-09T07:16:11.201Z - info: v-c-merchant-id : wescaper
+2020-07-09T07:16:11.201Z - info: date : Thu, 09 Jul 2020 07:16:11 GMT
+2020-07-09T07:16:11.201Z - info: host : apitest.cybersource.com
+2020-07-09T07:16:11.201Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="EiX6OJmPmZQ0Lk2tkslKdaCtqifRMV3cKxhcgIOYNiM="
+2020-07-09T07:16:11.201Z - info: User-Agent : Mozilla/5.0
+2020-07-09T07:16:11.201Z - info: END > =========================================
+2020-07-09T07:19:00.859Z - info: START > =======================================
+2020-07-09T07:19:00.863Z - info: Authentication Type : http_signature
+2020-07-09T07:19:00.860Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T07:19:00.863Z - info: Request Type : POST
+2020-07-09T07:19:00.864Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="69zLADbzoWzdfjBb06GNWSaa3AaG5pPCj8r9rctgdv8="
+2020-07-09T07:19:00.864Z - info: digest : SHA-256=vrBqCFn+FIvEpIuI3HEGtQyPNTVcGMjVcBb7Ci1CvcI=
+2020-07-09T07:19:00.865Z - info: v-c-merchant-id : wescaper
+2020-07-09T07:19:00.865Z - info: date : Thu, 09 Jul 2020 07:19:00 GMT
+2020-07-09T07:19:00.865Z - info: host : apitest.cybersource.com
+2020-07-09T07:19:00.865Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="69zLADbzoWzdfjBb06GNWSaa3AaG5pPCj8r9rctgdv8="
+2020-07-09T07:19:00.865Z - info: User-Agent : Mozilla/5.0
+2020-07-09T07:19:00.865Z - info: END > =========================================
+2020-07-09T11:05:47.709Z - info: Authentication Type : http_signature
+2020-07-09T11:05:47.698Z - info: START > =======================================
+2020-07-09T11:05:47.710Z - info: Request Type : POST
+2020-07-09T11:05:47.711Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7BH5i84CQp5qjAIKvtOI0ef71ij3meFFTarD+0xaEEs="
+2020-07-09T11:05:47.713Z - info: digest : SHA-256=2II/tu6As8Y1AVOkUhCgVBJLBcVXZioBr2dZcMX8MkE=
+2020-07-09T11:05:47.713Z - info: v-c-merchant-id : wescaper
+2020-07-09T11:05:47.713Z - info: date : Thu, 09 Jul 2020 11:05:47 GMT
+2020-07-09T11:05:47.713Z - info: host : apitest.cybersource.com
+2020-07-09T11:05:47.713Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7BH5i84CQp5qjAIKvtOI0ef71ij3meFFTarD+0xaEEs="
+2020-07-09T11:05:47.713Z - info: User-Agent : Mozilla/5.0
+2020-07-09T11:05:47.713Z - info: END > =========================================
+2020-07-09T11:05:47.703Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T11:06:33.618Z - info: START > =======================================
+2020-07-09T11:06:33.620Z - info: Authentication Type : http_signature
+2020-07-09T11:06:33.618Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-09T11:06:33.620Z - info: Request Type : POST
+2020-07-09T11:06:33.621Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2cqBZhC+Wgp5PxaJ1VZUIEnJi1S1alEQr8c4nlVfzCo="
+2020-07-09T11:06:33.622Z - info: digest : SHA-256=ZFB7W3JlnS2FfBeWgimURFCPbJlnM/8QctCVoMwE2Ng=
+2020-07-09T11:06:33.622Z - info: v-c-merchant-id : wescaper
+2020-07-09T11:06:33.622Z - info: date : Thu, 09 Jul 2020 11:06:33 GMT
+2020-07-09T11:06:33.622Z - info: host : apitest.cybersource.com
+2020-07-09T11:06:33.622Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="2cqBZhC+Wgp5PxaJ1VZUIEnJi1S1alEQr8c4nlVfzCo="
+2020-07-09T11:06:33.622Z - info: User-Agent : Mozilla/5.0
+2020-07-09T11:06:33.622Z - info: END > =========================================
+2020-07-10T06:24:15.367Z - info: START > =======================================
+2020-07-10T06:24:15.371Z - info: Authentication Type : http_signature
+2020-07-10T06:24:15.369Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-10T06:24:15.371Z - info: Request Type : POST
+2020-07-10T06:24:15.373Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pAiwXhq+1dnlxVCL/+NxuKzkr2Vv7JW7MeTrSdk+6U4="
+2020-07-10T06:24:15.374Z - info: digest : SHA-256=oA+hFkl8fXAUdx3TM4J7bn/XGxs6p9If8ksfke5/0g0=
+2020-07-10T06:24:15.374Z - info: v-c-merchant-id : wescaper
+2020-07-10T06:24:15.374Z - info: date : Fri, 10 Jul 2020 06:24:15 GMT
+2020-07-10T06:24:15.374Z - info: host : apitest.cybersource.com
+2020-07-10T06:24:15.374Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="pAiwXhq+1dnlxVCL/+NxuKzkr2Vv7JW7MeTrSdk+6U4="
+2020-07-10T06:24:15.374Z - info: User-Agent : Mozilla/5.0
+2020-07-10T06:24:15.374Z - info: END > =========================================
+2020-07-10T06:27:33.319Z - info: START > =======================================
+2020-07-10T06:27:33.324Z - info: Authentication Type : http_signature
+2020-07-10T06:27:33.320Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-10T06:27:33.324Z - info: Request Type : POST
+2020-07-10T06:27:33.325Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RfWc1DgZjwoQLgjRCcwShUDrf8mMRxkRY8+H3Lxfhwc="
+2020-07-10T06:27:33.327Z - info: digest : SHA-256=SG+c7EbRfIe6lnAeBZGOXJE1l4n4SltdATJ+qcq6JX4=
+2020-07-10T06:27:33.327Z - info: v-c-merchant-id : wescaper
+2020-07-10T06:27:33.327Z - info: date : Fri, 10 Jul 2020 06:27:33 GMT
+2020-07-10T06:27:33.327Z - info: host : apitest.cybersource.com
+2020-07-10T06:27:33.327Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RfWc1DgZjwoQLgjRCcwShUDrf8mMRxkRY8+H3Lxfhwc="
+2020-07-10T06:27:33.327Z - info: User-Agent : Mozilla/5.0
+2020-07-10T06:27:33.327Z - info: END > =========================================
+2020-07-10T06:27:43.809Z - info: START > =======================================
+2020-07-10T06:27:43.809Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-10T06:27:43.809Z - info: Authentication Type : http_signature
+2020-07-10T06:27:43.809Z - info: Request Type : POST
+2020-07-10T06:27:43.810Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="bSm9hhoyrGEeXCdzPU90ip+talCLTXqosW1a7XFTRuA="
+2020-07-10T06:27:43.810Z - info: digest : SHA-256=zvFNTCWS69TFEgSlVxd6lKOKUu6aoRfEMp8oPa7/PZw=
+2020-07-10T06:27:43.810Z - info: v-c-merchant-id : wescaper
+2020-07-10T06:27:43.810Z - info: date : Fri, 10 Jul 2020 06:27:43 GMT
+2020-07-10T06:27:43.810Z - info: host : apitest.cybersource.com
+2020-07-10T06:27:43.810Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="bSm9hhoyrGEeXCdzPU90ip+talCLTXqosW1a7XFTRuA="
+2020-07-10T06:27:43.810Z - info: User-Agent : Mozilla/5.0
+2020-07-10T06:27:43.810Z - info: END > =========================================
+2020-07-11T08:59:25.411Z - info: START > =======================================
+2020-07-11T08:59:25.414Z - info: Authentication Type : http_signature
+2020-07-11T08:59:25.411Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T08:59:25.414Z - info: Request Type : POST
+2020-07-11T08:59:25.416Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GAFFzU7MYnuwxmcbBVvTAuJrmBnCZ/2ckocon9Rg3FA="
+2020-07-11T08:59:25.418Z - info: digest : SHA-256=eOKgzBYZV96XIvJh82X9zMAlWLVItObgm7CbpLoCa4M=
+2020-07-11T08:59:25.418Z - info: v-c-merchant-id : wescaper
+2020-07-11T08:59:25.418Z - info: date : Sat, 11 Jul 2020 08:59:25 GMT
+2020-07-11T08:59:25.418Z - info: host : apitest.cybersource.com
+2020-07-11T08:59:25.418Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="GAFFzU7MYnuwxmcbBVvTAuJrmBnCZ/2ckocon9Rg3FA="
+2020-07-11T08:59:25.418Z - info: User-Agent : Mozilla/5.0
+2020-07-11T08:59:25.418Z - info: END > =========================================
+2020-07-11T09:56:59.835Z - info: START > =======================================
+2020-07-11T09:56:59.838Z - info: Authentication Type : http_signature
+2020-07-11T09:56:59.837Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T09:56:59.839Z - info: Request Type : POST
+2020-07-11T09:56:59.839Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="kWKyWLXgvXQSMFb6dKA1ZMW8G0j436P6vvDDp+epU2E="
+2020-07-11T09:56:59.840Z - info: digest : SHA-256=OPcxoidgYvRmKYDWlUjYDabP5u0liPO0IBMOLKaMQlk=
+2020-07-11T09:56:59.840Z - info: v-c-merchant-id : wescaper
+2020-07-11T09:56:59.840Z - info: date : Sat, 11 Jul 2020 09:56:59 GMT
+2020-07-11T09:56:59.840Z - info: host : apitest.cybersource.com
+2020-07-11T09:56:59.840Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="kWKyWLXgvXQSMFb6dKA1ZMW8G0j436P6vvDDp+epU2E="
+2020-07-11T09:56:59.840Z - info: User-Agent : Mozilla/5.0
+2020-07-11T09:56:59.840Z - info: END > =========================================
+2020-07-11T10:04:54.688Z - info: Authentication Type : http_signature
+2020-07-11T10:04:54.683Z - info: START > =======================================
+2020-07-11T10:04:54.688Z - info: Request Type : POST
+2020-07-11T10:04:54.691Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="rYBab7TlM1LZfIftVAe8/4Pi5WDaqILM37zw2T1P9qs="
+2020-07-11T10:04:54.692Z - info: digest : SHA-256=Mq48M6CXO3sn1/tZMTEHJI2Qk8V/C2m6whfGpWEIMUM=
+2020-07-11T10:04:54.692Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:04:54.684Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:04:54.692Z - info: date : Sat, 11 Jul 2020 10:04:54 GMT
+2020-07-11T10:04:54.692Z - info: host : apitest.cybersource.com
+2020-07-11T10:04:54.692Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="rYBab7TlM1LZfIftVAe8/4Pi5WDaqILM37zw2T1P9qs="
+2020-07-11T10:04:54.692Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:04:54.692Z - info: END > =========================================
+2020-07-11T10:06:02.789Z - info: START > =======================================
+2020-07-11T10:06:02.795Z - info: Authentication Type : http_signature
+2020-07-11T10:06:02.791Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:06:02.795Z - info: Request Type : POST
+2020-07-11T10:06:02.797Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3l4M2T1b0JXqLiXa82wc7IVkO63KwHa6db6Hd1VcaXs="
+2020-07-11T10:06:02.798Z - info: digest : SHA-256=VALLBtPJFsI/fTrRSR3o4M0bN6UBs1S6JdiNaaXvNiw=
+2020-07-11T10:06:02.798Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:06:02.798Z - info: date : Sat, 11 Jul 2020 10:06:02 GMT
+2020-07-11T10:06:02.798Z - info: host : apitest.cybersource.com
+2020-07-11T10:06:02.798Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="3l4M2T1b0JXqLiXa82wc7IVkO63KwHa6db6Hd1VcaXs="
+2020-07-11T10:06:02.798Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:06:02.798Z - info: END > =========================================
+2020-07-11T10:07:24.242Z - info: START > =======================================
+2020-07-11T10:07:24.244Z - info: Authentication Type : http_signature
+2020-07-11T10:07:24.243Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:07:24.245Z - info: Request Type : POST
+2020-07-11T10:07:24.246Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="lDex6ygqCQFqnorkqXNv1mHIImanW0Ae52JLhHwmtOs="
+2020-07-11T10:07:24.247Z - info: digest : SHA-256=LsIRCWIYFQJyB8N493+0e7XgHDG5XMs7afXAVh1rNNM=
+2020-07-11T10:07:24.247Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:07:24.247Z - info: date : Sat, 11 Jul 2020 10:07:24 GMT
+2020-07-11T10:07:24.247Z - info: host : apitest.cybersource.com
+2020-07-11T10:07:24.247Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="lDex6ygqCQFqnorkqXNv1mHIImanW0Ae52JLhHwmtOs="
+2020-07-11T10:07:24.247Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:07:24.247Z - info: END > =========================================
+2020-07-11T10:07:48.700Z - info: START > =======================================
+2020-07-11T10:07:48.703Z - info: Authentication Type : http_signature
+2020-07-11T10:07:48.701Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:07:48.703Z - info: Request Type : POST
+2020-07-11T10:07:48.704Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oRLTGWZFpK60ut/l+td9gmbj8Fja2AxdcK6U70OO7mA="
+2020-07-11T10:07:48.705Z - info: digest : SHA-256=m0IukWL1vamEh8804AmyiQP22agv5WfrBaR9Nd+jYkw=
+2020-07-11T10:07:48.705Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:07:48.705Z - info: date : Sat, 11 Jul 2020 10:07:48 GMT
+2020-07-11T10:07:48.705Z - info: host : apitest.cybersource.com
+2020-07-11T10:07:48.705Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oRLTGWZFpK60ut/l+td9gmbj8Fja2AxdcK6U70OO7mA="
+2020-07-11T10:07:48.705Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:07:48.705Z - info: END > =========================================
+2020-07-11T10:10:35.871Z - info: START > =======================================
+2020-07-11T10:10:35.876Z - info: Authentication Type : http_signature
+2020-07-11T10:10:35.872Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:10:35.876Z - info: Request Type : POST
+2020-07-11T10:10:35.878Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="bomOzh924XmmLSZLdOvRdAcJqaeTvHJ93pAYYx1I5Og="
+2020-07-11T10:10:35.878Z - info: digest : SHA-256=9ctH13RDvJdWwdrxEgobJMtfeoknotXkqnGNUrAxIwI=
+2020-07-11T10:10:35.878Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:10:35.878Z - info: date : Sat, 11 Jul 2020 10:10:35 GMT
+2020-07-11T10:10:35.878Z - info: host : apitest.cybersource.com
+2020-07-11T10:10:35.878Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="bomOzh924XmmLSZLdOvRdAcJqaeTvHJ93pAYYx1I5Og="
+2020-07-11T10:10:35.878Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:10:35.878Z - info: END > =========================================
+2020-07-11T10:13:16.357Z - info: START > =======================================
+2020-07-11T10:13:16.360Z - info: Authentication Type : http_signature
+2020-07-11T10:13:16.358Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:13:16.360Z - info: Request Type : POST
+2020-07-11T10:13:16.361Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Ig69m7G4GOoMs8rtVBoZCRaClnDCO4BRF2eJ07yiL+U="
+2020-07-11T10:13:16.362Z - info: digest : SHA-256=X3p3AiH+PSh3+jS4/x1bHjubZDQLKb/B17qibGZWMMs=
+2020-07-11T10:13:16.362Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:13:16.362Z - info: date : Sat, 11 Jul 2020 10:13:16 GMT
+2020-07-11T10:13:16.362Z - info: host : apitest.cybersource.com
+2020-07-11T10:13:16.362Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Ig69m7G4GOoMs8rtVBoZCRaClnDCO4BRF2eJ07yiL+U="
+2020-07-11T10:13:16.362Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:13:16.362Z - info: END > =========================================
+2020-07-11T10:13:58.506Z - info: START > =======================================
+2020-07-11T10:13:58.508Z - info: Authentication Type : http_signature
+2020-07-11T10:13:58.506Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:13:58.508Z - info: Request Type : POST
+2020-07-11T10:13:58.509Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nT7nNW8FhdSYR7IoI8FNvbv7QyxrK/u8VfUqp2SYJAc="
+2020-07-11T10:13:58.510Z - info: digest : SHA-256=qpQs7Y/64+dilUBbwWQH/pcpAw3feKKkujZ0IjEvXRU=
+2020-07-11T10:13:58.510Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:13:58.510Z - info: date : Sat, 11 Jul 2020 10:13:58 GMT
+2020-07-11T10:13:58.510Z - info: host : apitest.cybersource.com
+2020-07-11T10:13:58.510Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="nT7nNW8FhdSYR7IoI8FNvbv7QyxrK/u8VfUqp2SYJAc="
+2020-07-11T10:13:58.510Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:13:58.510Z - info: END > =========================================
+2020-07-11T10:14:42.402Z - info: START > =======================================
+2020-07-11T10:14:42.403Z - info: Authentication Type : http_signature
+2020-07-11T10:14:42.402Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:14:42.404Z - info: Request Type : POST
+2020-07-11T10:14:42.404Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vIqXIaMEtQUSgqA8w5+ycx1/+PHsnkRwN9Nt1wY9m0c="
+2020-07-11T10:14:42.404Z - info: digest : SHA-256=KGZWCQOXf41cRypCbiX5I+Dwx19cwazh/6BjHOjYz4o=
+2020-07-11T10:14:42.404Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:14:42.404Z - info: date : Sat, 11 Jul 2020 10:14:42 GMT
+2020-07-11T10:14:42.404Z - info: host : apitest.cybersource.com
+2020-07-11T10:14:42.404Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="vIqXIaMEtQUSgqA8w5+ycx1/+PHsnkRwN9Nt1wY9m0c="
+2020-07-11T10:14:42.404Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:14:42.404Z - info: END > =========================================
+2020-07-11T10:15:17.048Z - info: START > =======================================
+2020-07-11T10:15:17.050Z - info: Authentication Type : http_signature
+2020-07-11T10:15:17.049Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:15:17.051Z - info: Request Type : POST
+2020-07-11T10:15:17.052Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="k74gQXTnkNvubhcjk+Mq095PeysArRMXrZfPxNTLDkY="
+2020-07-11T10:15:17.052Z - info: digest : SHA-256=cMClJAQ+K6hYHFZspr6JTLqW8ZU+DRg8PZ5uecqDFdc=
+2020-07-11T10:15:17.052Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:15:17.052Z - info: date : Sat, 11 Jul 2020 10:15:17 GMT
+2020-07-11T10:15:17.052Z - info: host : apitest.cybersource.com
+2020-07-11T10:15:17.053Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="k74gQXTnkNvubhcjk+Mq095PeysArRMXrZfPxNTLDkY="
+2020-07-11T10:15:17.053Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:15:17.053Z - info: END > =========================================
+2020-07-11T10:20:53.946Z - info: START > =======================================
+2020-07-11T10:20:53.949Z - info: Authentication Type : http_signature
+2020-07-11T10:20:53.947Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:20:53.949Z - info: Request Type : POST
+2020-07-11T10:20:53.950Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="s4mURUBj/bjj9aGziPROSiJtZ1dv/ZyMtz72j+jMfQ0="
+2020-07-11T10:20:53.950Z - info: digest : SHA-256=I/pTujnDjHeANsfuVIyYkX89hzPcFKRJKT/60HThXvw=
+2020-07-11T10:20:53.950Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:20:53.951Z - info: date : Sat, 11 Jul 2020 10:20:53 GMT
+2020-07-11T10:20:53.951Z - info: host : apitest.cybersource.com
+2020-07-11T10:20:53.951Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="s4mURUBj/bjj9aGziPROSiJtZ1dv/ZyMtz72j+jMfQ0="
+2020-07-11T10:20:53.951Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:20:53.951Z - info: END > =========================================
+2020-07-11T10:21:17.077Z - info: Authentication Type : http_signature
+2020-07-11T10:21:17.075Z - info: START > =======================================
+2020-07-11T10:21:17.077Z - info: Request Type : POST
+2020-07-11T10:21:17.078Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tD129mKPS8gKG/CbZJbl9nIal7cC3VeZEa+uWIL1Ccc="
+2020-07-11T10:21:17.075Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:21:17.078Z - info: digest : SHA-256=I/pTujnDjHeANsfuVIyYkX89hzPcFKRJKT/60HThXvw=
+2020-07-11T10:21:17.078Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:21:17.078Z - info: date : Sat, 11 Jul 2020 10:21:17 GMT
+2020-07-11T10:21:17.078Z - info: host : apitest.cybersource.com
+2020-07-11T10:21:17.078Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="tD129mKPS8gKG/CbZJbl9nIal7cC3VeZEa+uWIL1Ccc="
+2020-07-11T10:21:17.078Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:21:17.078Z - info: END > =========================================
+2020-07-11T10:21:23.013Z - info: START > =======================================
+2020-07-11T10:21:23.014Z - info: Authentication Type : http_signature
+2020-07-11T10:21:23.013Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:21:23.014Z - info: Request Type : POST
+2020-07-11T10:21:23.014Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="LeXFwoVrIqlWX2RlPt/qlskvYyNIWWPmBlkWlEd9tf4="
+2020-07-11T10:21:23.014Z - info: digest : SHA-256=I/pTujnDjHeANsfuVIyYkX89hzPcFKRJKT/60HThXvw=
+2020-07-11T10:21:23.014Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:21:23.014Z - info: date : Sat, 11 Jul 2020 10:21:23 GMT
+2020-07-11T10:21:23.015Z - info: host : apitest.cybersource.com
+2020-07-11T10:21:23.015Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="LeXFwoVrIqlWX2RlPt/qlskvYyNIWWPmBlkWlEd9tf4="
+2020-07-11T10:21:23.015Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:21:23.015Z - info: END > =========================================
+2020-07-11T10:21:54.206Z - info: START > =======================================
+2020-07-11T10:21:54.209Z - info: Authentication Type : http_signature
+2020-07-11T10:21:54.206Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:21:54.210Z - info: Request Type : POST
+2020-07-11T10:21:54.212Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="iheAfha7tw+eD8ht7PQ3dos56yAza2TO8propr6A+pM="
+2020-07-11T10:21:54.213Z - info: digest : SHA-256=BvYNcVx7OvW3BaJJbaTxUhmGKMp3q2vsIBOtcF8zwNg=
+2020-07-11T10:21:54.213Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:21:54.213Z - info: date : Sat, 11 Jul 2020 10:21:54 GMT
+2020-07-11T10:21:54.213Z - info: host : apitest.cybersource.com
+2020-07-11T10:21:54.213Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="iheAfha7tw+eD8ht7PQ3dos56yAza2TO8propr6A+pM="
+2020-07-11T10:21:54.213Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:21:54.213Z - info: END > =========================================
+2020-07-11T10:22:17.246Z - info: START > =======================================
+2020-07-11T10:22:17.248Z - info: Authentication Type : http_signature
+2020-07-11T10:22:17.247Z - warn: Entered log directory does not exists. Taking default log directory ./log
+2020-07-11T10:22:17.248Z - info: Request Type : POST
+2020-07-11T10:22:17.250Z - info: signatureHeader : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="yjRSNaoaqi2x9Y8YJX8gxCZrgIYTJtxlrS+rnA20NhE="
+2020-07-11T10:22:17.250Z - info: digest : SHA-256=BvYNcVx7OvW3BaJJbaTxUhmGKMp3q2vsIBOtcF8zwNg=
+2020-07-11T10:22:17.250Z - info: v-c-merchant-id : wescaper
+2020-07-11T10:22:17.251Z - info: date : Sat, 11 Jul 2020 10:22:17 GMT
+2020-07-11T10:22:17.251Z - info: host : apitest.cybersource.com
+2020-07-11T10:22:17.251Z - info: signature : keyid="c965d017-c84f-4868-8f70-42b438ea6ca2", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="yjRSNaoaqi2x9Y8YJX8gxCZrgIYTJtxlrS+rnA20NhE="
+2020-07-11T10:22:17.251Z - info: User-Agent : Mozilla/5.0
+2020-07-11T10:22:17.251Z - info: END > =========================================

@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import { Redirect } from "react-router";
 import PaymentForm from "./PaymentForm";
 import CollectDeviceData from "./CollectDeviceData";
 import ShippingForm from "./ShippingForm";
 import Button from "../common/Button";
 import createPaymentObject from "./CreatePaymentObject";
 import createUUID from "./createUUID";
-import OutputController from "./OutputController";
+import { connect } from "react-redux";
+import sendData from "../APICalls/sendData";
 const OrgID = "45ssiuz3";
 
 class PaymentPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      firstName: "Suchi",
-      lastName: "Pattanayak",
+      firstName: this.props.name.split(" ").slice(0, 1).join(" "),
+      lastName: this.props.name.split(" ").slice(-1).join(" "),
       email: "pattanayaksuchi@gmail.com",
       address1: "D101, The Five Summits Address",
       address2: "Road No 10, EPIP Zone",
@@ -37,7 +37,7 @@ class PaymentPage extends Component {
       shipstate: "KA",
       shipzipCode: "560066",
       service: "auth",
-      totalAmount: "30",
+      totalAmount: this.props.total,
       currency: "GBP",
       phoneNumber: "9438251959",
       locality: "Bangalore",
@@ -78,30 +78,15 @@ class PaymentPage extends Component {
     }
   }
 
-  sendData = async (url, data) => {
-    try {
-      const response = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(data),
-      });
-      return response.json();
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
   handleSubmit(event) {
     let obj = createPaymentObject(this.state);
     if (obj.route === "/auth") {
       this.setState({ saving: true });
-      this.sendData("/deviceData", this.state).then((data) => {
+      sendData("/deviceData", this.state).then((data) => {
         this.setState({ saving: false, message: data.message, jwt: data.jwt });
       });
 
-      this.sendData(obj.route, obj.paymentObject).then((data) => {
+      sendData(obj.route, obj.paymentObject).then((data) => {
         console.log("Data sent to server and Cardinal");
 
         this.setState({
@@ -115,7 +100,7 @@ class PaymentPage extends Component {
       });
     }
     if (obj.route === "/score") {
-      this.sendData(obj.route, obj.paymentObject).then((data) => {
+      sendData(obj.route, obj.paymentObject).then((data) => {
         console.log("Data sent to server.");
 
         this.setState({
@@ -157,4 +142,11 @@ class PaymentPage extends Component {
   }
 }
 
-export default PaymentPage;
+const mapStateToProps = (state) => {
+  return {
+    total: state.cart.total,
+    name: state.auth.user.name,
+  };
+};
+
+export default connect(mapStateToProps)(PaymentPage);

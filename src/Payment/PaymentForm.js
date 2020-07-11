@@ -130,9 +130,9 @@ class PaymentForm extends Component {
                   <TextInput
                     name="totalAmount"
                     label="Amount"
-                    value={this.props.formData.totalAmount}
+                    value={"INR " + this.props.formData.totalAmount}
                     placeholder="30"
-                    onChange={this.props.onFill}
+                    // onChange={this.props.onFill}
                   />
                 </div>
               </div>

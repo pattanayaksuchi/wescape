@@ -1,44 +1,56 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
-import Nav from "./Nav";
-import Public from "./Public";
-import Private from "./Private";
-import PaymentPage from "./Payment/PaymentPage";
-import OutputView from "./Payment/OutputView";
-import OutputView1 from "./Payment/OutputView1";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Nav from "./Layout/Nav";
+import RegisterPage from "./Auth/RegisterPage";
 import LogInPage from "./Auth/LogInPage";
-import { Auth0Provider } from "@auth0/auth0-react";
-import LogOutPage from "./Auth/LogOutPage";
-import Profile from "./Profile";
-import Cart from "./Cart/Cart";
 import { Provider } from "react-redux";
 import { appStore } from "./common/appStore";
+import Home from "./Layout/Home";
+import Dashboard from "./Dashboard/Dashboard";
+import jwt_decode from "jwt-decode";
+import setAuthToken from "./utils/setAuthToken";
+import { setCurrentUser, logoutUser } from "./actions/authActions";
+import PrivateRoute from "./PrivateRoutes/PrivateRoute";
+import Cart from "./Cart/Cart";
+import PaymentPage from "./Payment/PaymentPage";
+import OutputView from "./Payment/OutputView";
+import ShoppingCart from "./Cart/ShoppingCart";
+import Cart1 from "./Cart/Cart1";
+import ShoppingCart1 from "./Cart/ShoppingCart1";
+
+if (localStorage.jwtToken) {
+  const token = localStorage.jwtToken;
+  setAuthToken(token);
+  const decoded = jwt_decode(token);
+  appStore.dispatch(setCurrentUser(decoded));
+  const currentTime = Date.now() / 1000;
+  if (decoded.exp < currentTime) {
+    appStore.dispatch(logoutUser());
+    window.location.href = "./login";
+  }
+}
 
 class App extends Component {
   render() {
     return (
       <Provider store={appStore}>
-        <Auth0Provider
-          domain="wescape-checkout-page-dev.us.auth0.com"
-          clientId="Yrih1XYrUbjMCKt3ZywtIlOnYazumLY0"
-          redirectUri="http://localhost:3000/"
-          audience="https://wescape-checkout-page-dev.us.auth0.com/api/v2/"
-          scope="read:current_user update:current_user_metadata"
-        >
-          <Nav />
-          <div className="body">
-            <Route path="/profile" component={Profile} />
-            <Route path="/public" component={Public} />
-            <Route path="/private" render={Private} />
-            <Route path="/payment" component={PaymentPage} />
-            <Route path="/output" component={OutputView} />
-            <Route path="/output1" component={OutputView1} />
-            <Route path="/cart" component={Cart} />
-            <Route path="/login" component={LogInPage} />
-            <Route path="/logout" component={LogOutPage} />
+        <Router>
+          <div className="App">
+            <Nav />
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/register" component={RegisterPage}></Route>
+            <Route exact path="/login" component={LogInPage}></Route>
+            <Route exact path="/mycart" component={ShoppingCart}></Route>
+            <Route exact path="/cart1" component={Cart1}></Route>
+            <Switch>
+              <PrivateRoute exact path="/dashboard" component={Dashboard} />
+              <PrivateRoute exact path="/cart" component={Cart1} />
+              <PrivateRoute exact path="/payment" component={PaymentPage} />
+              <PrivateRoute exact path="/output" component={OutputView} />
+            </Switch>
           </div>
           <div id="ifrm1"></div>
-        </Auth0Provider>
+        </Router>
       </Provider>
     );
   }

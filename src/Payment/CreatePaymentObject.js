@@ -115,6 +115,20 @@ export default function createPaymentObject({
         },
         route: "/score",
       };
+    case "dmevent":
+      return {
+        paymentObject: {
+          riskInformation: {
+            eventType: "login",
+          },
+          deviceInformation: {
+            fingerprintSessionId,
+            cookiesAccepted: navigator.cookieEnabled,
+            userAgent: navigator.userAgent,
+          },
+        },
+        route: "/dmevent",
+      };
     default:
       console.log("Running Default Case");
       return {

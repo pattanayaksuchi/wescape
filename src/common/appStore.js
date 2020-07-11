@@ -1,4 +1,18 @@
-import { createStore } from "redux";
-import CartReducer from "../reducers/CartReducer";
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+import rootReducer from "../reducers";
 
-export const appStore = createStore(CartReducer);
+const initialState = {};
+
+const middleware = [thunk];
+
+export const appStore = createStore(
+  rootReducer,
+  initialState,
+  compose(
+    applyMiddleware(...middleware),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
+);
+
+export default appStore;
